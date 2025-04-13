@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bostanbaeva Aiganym - portfolio</title>
+    <link rel="stylesheet" href="3assignment.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://png.pngtree.com/png-clipart/20210310/original/pngtree-the-surface-of-a-round-moon-png-image_5955908.png">
+    <style>
+        * {
+            margin: 20px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            font-style: oblique;
+            font-size: 20px;
+            width: 100%;
+            text-align: center;
+            background-color: #39A78E;
+            color: white;
+            border-radius: 10px;
+        }
+        h1 {
+            color:#106c70;
+            font-size: 24px;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .navbar {
+            background-color: #39A78E;
+        }
+        .nav-link {
+            color: white !important;
+        }
+        .nav-link:hover {
+            color: #106c70 !important;
+        }
+        footer {
+            font-style: oblique;
+            font-size: 15px;
+            width: 100%;
+            text-align: center;
+            background-color: #39A78E;
+            color: white;
+            opacity: 0.8;
+        }
+        .main-text {
+            font-size: 22px;
+        }
+        button {
+            font-size: 24px;
+            padding: 1rem 2rem;
+            width: auto;
+            border-radius: 10px;
+            transition: transform 0.2s ease;
+        }
+        button:hover {
+            transform: translateY(-3px);
+        }
+        .card {
+            width: 18rem;
+            margin: 10px;
+        }
+        .project-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Aiganym's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#1">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#2">Part of My Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#3">Get in Touch</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <img id="tribute-img" src="Aiganym.JPG" alt="My photo" width="300" height="400"/>
+    <h1 id="1">About Me</h1>
+    <p class="main-text">
+        My name is Bostanbayeva Aiganym, I am 18 years old, and I am studying at Astana IT University with a degree in BDA (Big Data Analysis).
+        At this stage, I am actively developing my IT skills, especially in web development - I am studying HTML, CSS, SQL and the basics of programming.
+        I am interested in exploring new topics, conducting independent research, and understanding technology more deeply.
+        I strive to become a confident specialist in the field of data analysis and programming.
+    </p>
+    <div class="info">
+        <details>
+            <summary style="color:#106c70 ; text-align: center; font-size: 20px;"> if you want more information: </summary>
+            <p style="font-size: 20px;">You can explore my recent work in the projects section or reach out through my contact links below. </p>
+            <p style="font-size: 20px;">I’m always open to learning, growing, and collaborating — feel free to reach out!</p>
+        </details>
+    </div>
+    <section id="2" class="project-container">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Online Farmer system</h5>
+                <p class="card-text">Organize the process of selling goods, simplifies the interaction between farmers,
+                    customers and administrators, creating a convenient and structured platform and
+                    allowing effective data management.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Political Apathy vs. Activism</h5>
+                <p class="card-text">Political science project analyzing the causes of political apathy and political
+                    activism among citizens in order to identify factors contributing to or hindering their political participation.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Inequality within the family</h5>
+                <p class="card-text">A sociology project on how inequality in family relationships affects the increase in the number of divorces and breakups,
+                    as well as to analyze the social and psychological consequences of these processes.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Web-frontend</h5>
+                <p class="card-text">Created a one-page website dedicated to the "Attack of the Titans" universe using HTML and CSS.
+                    Implemented adaptive layout, interactive elements, stylized character cards and navigation.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+        <div id="3" style="text-align: center;">
+            <h5>Contact:</h5>
+            <button onclick="window.location.href='https://t.me/aiqosha'" class="btn btn-primary mt-3">📬 Telegram</button>
+            <button onclick="window.location.href='https://www.microsoft365.com/search/overview?origin=ProfileAboutMe&pp=9fc9da50-825a-43c3-8bd5-3f7b22f184ec%40158f15f3-83e0-4906-824c-69bdc50d9d61%7C240694%40astanait.edu.kz&redirectOrgId=158f15f3-83e0-4906-824c-69bdc50d9d61&redirectUserId=9fc9da50-825a-43c3-8bd5-3f7b22f184ec&spocorrelationid=62db93a1-50eb-c000-7508-39d6174df23a&v=profile'" class="btn btn-primary mt-3">My Outlook</button>
+        </div>
+    <p class="mt-3 text-muted small">©2025 Bostanbaeva Aiganym</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
